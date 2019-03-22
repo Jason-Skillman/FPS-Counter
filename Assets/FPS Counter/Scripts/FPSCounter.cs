@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class FPSCounter : MonoBehaviour {
 
+	public static FPSCounter main;
+
 	public Text text;
 	public bool showMsecs = false;
 	
@@ -12,6 +14,8 @@ public class FPSCounter : MonoBehaviour {
 
 
 	void Awake() {
+		if(!main) main = this;
+		else Destroy(gameObject);
 		DontDestroyOnLoad(gameObject);
 	}
 
