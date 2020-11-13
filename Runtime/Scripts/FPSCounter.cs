@@ -19,7 +19,7 @@ public class FPSCounter : MonoBehaviour {
 	private float currentFPSFrame;
 	
 	/// <summary>
-	/// Turn on/off the FPS counter
+	/// Turn on/off the FPS counter.
 	/// </summary>
 	public bool IsOn { get; set; }
 
