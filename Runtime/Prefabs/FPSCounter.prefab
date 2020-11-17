@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startOn: 1
-  anchor: 1
+  anchor: 0
   color: {r: 0, g: 1, b: 0.5, a: 1}
