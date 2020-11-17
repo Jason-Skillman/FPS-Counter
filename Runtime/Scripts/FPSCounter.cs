@@ -56,8 +56,12 @@ public class FPSCounter : MonoBehaviour {
 		int w = Screen.width, h = Screen.height;
  
 		GUIStyle style = new GUIStyle();
+
+		int x = 5;
+		if(anchor.Equals(TextAnchor.UpperRight) || anchor.Equals(TextAnchor.MiddleRight) || anchor.Equals(TextAnchor.LowerRight))
+			x = -x;
  
-		Rect rect = new Rect(5, 3, w, h * 2 / 100);
+		Rect rect = new Rect(x, 3, w, h * 2 / 100);
 		style.alignment = anchor;
 		style.fontSize = h * 2 / 100;
 		style.normal.textColor = color;
