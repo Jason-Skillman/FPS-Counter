@@ -6,7 +6,7 @@ public class FPSCounter : MonoBehaviour {
 	public static FPSCounter Instance { get; private set; }
 
 	[SerializeField]
-	private bool startOn;
+	private bool startOn = default;
 
 	[SerializeField]
 	private TextAnchor anchor = TextAnchor.UpperLeft;
