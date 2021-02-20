@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace FPS {
-	public static class FPSCounterEditor {
+	public static class CreateFPSCounterEditor {
 
 		[MenuItem("GameObject/FPS/FPS Counter", false, 10)]
-		static void CreateObject(MenuCommand menuCommand) {
+		static void CreateFPSCounter(MenuCommand menuCommand) {
 			//Check if the object has already been created
 			FPSCounter counter = Object.FindObjectOfType<FPSCounter>();
 
@@ -17,7 +17,8 @@ namespace FPS {
 			}
 
 			//Use the asset database to fetch the prefab
-			GameObject objectPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Packages/com.jasonskillman.fpscounter/Runtime/Prefabs/FPSCounter.prefab");
+			GameObject objectPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(
+				"Packages/com.jasonskillman.fpscounter/Runtime/Prefabs/FPSCounter.prefab");
 
 			//Instantiate the prefab in the hierarchy
 			PrefabUtility.InstantiatePrefab(objectPrefab);
