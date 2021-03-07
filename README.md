@@ -16,6 +16,13 @@ Paste in this repository's url.
 
 Click `Add` and the package will be installed in your project.
 
+### Git submodule
+Alternatively you can also install this package as a git submodule.
+
+```console
+$ git submodule add https://github.com/Jason-Skillman/FPS-Counter.git Packages/FPS-Counter
+```
+
 ---
 **NOTE:** For Unity version 2019.2 or lower
 
