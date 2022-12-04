@@ -1,8 +1,7 @@
-﻿using UnityEditor;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-namespace FPS {
+﻿namespace JasonSkillman.FPS.Editor {
+	using UnityEditor;
+	using UnityEngine;
+	
 	public static class CreateFPSCounterEditor {
 
 		[MenuItem("GameObject/FPS/FPS Counter", false, 10)]

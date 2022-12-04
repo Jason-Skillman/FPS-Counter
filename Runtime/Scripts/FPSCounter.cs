@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
-
-namespace FPS {
+﻿namespace JasonSkillman.FPS {
+	using UnityEngine;
+	
 	public class FPSCounter : MonoBehaviour {
     	
     	public static FPSCounter Instance { get; private set; }
