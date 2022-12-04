@@ -1,5 +1,8 @@
 # FPS Counter Changelog
 
+## [1.0.3] - 12/04/2022
+- Updated namespace.
+
 ## [1.0.2] - 07/24/2021
 - Updated assembly definition names.
 - Fixed package version number.
