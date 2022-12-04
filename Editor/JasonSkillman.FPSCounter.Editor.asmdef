@@ -1,5 +1,6 @@
 {
     "name": "JasonSkillman.FPSCounter.Editor",
+    "rootNamespace": "JasonSkillman.FPS.Editor",
     "references": [
         "GUID:48748d94a4283f1498620f15b7b48432"
     ],

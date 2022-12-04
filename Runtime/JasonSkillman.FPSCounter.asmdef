@@ -1,5 +1,6 @@
 {
     "name": "JasonSkillman.FPSCounter",
+    "rootNamespace": "JasonSkillman.FPS",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

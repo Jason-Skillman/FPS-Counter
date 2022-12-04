@@ -1,7 +1,7 @@
 {
   "name": "com.jasonskillman.fpscounter",
   "displayName": "FPS Counter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shows frames per second during runtime.",
   "author": {
     "name": "Jason Skillman",
